@@ -7,10 +7,10 @@ Collection of study materials, practice exams questions, and notes to help you p
 - Services notes
   - [💂 AWS GuardDuty](./services-notes/aws-guardduty/aws-guardduty.md)
   - [💿 Elastic Block Store (EBS)](./services-notes/ebs/elastic-block-store.md)
-  - [☁️ AWS Compute Services Overview](./services-notes/aws-compute-services-overview/overview.md)
+  - [☁️ AWS Compute Services Overview](./services-notes/aws-compute-services/overview.md)
   - [📦 Elastic Container Service (ECS)](./services-notes/ecs/elastic-container-service.md)
   - [📦 AWS Fargate](./services-notes/fargate/fargate-overview.md)
-  - AWS Storage Services
+  - [🎲 AWS Storage Services](./services-notes/aws-storage-services/overview.md)
 - Practice Exame #1
 - Practice Exame #2
 

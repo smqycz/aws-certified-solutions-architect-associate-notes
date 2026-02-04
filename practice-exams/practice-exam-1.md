@@ -29,7 +29,7 @@
   <details markdown=1>
     <summary markdown='span'>Resposta</summary>
     Resposta correta: C
-    <p>Cada conexão de AWS Site-to-Site VPN tem 2 túneis, portanto, não é possível configurar outros túneis. Limite de banda da conexão AWS Site-to-Site: 1.25 Gpbs. Com o roteamento ECMP (roteamento de vários caminhos de custo igual), é possível agregar várias conexões VPN para obter uma taxa de transferência efetiva mais alta.</p>
+    <blockquote>Cada conexão de AWS Site-to-Site VPN tem 2 túneis, portanto, não é possível configurar outros túneis. Limite de banda da conexão AWS Site-to-Site: 1.25 Gpbs. Com o roteamento ECMP (roteamento de vários caminhos de custo igual), é possível agregar várias conexões VPN para obter uma taxa de transferência efetiva mais alta.</blockquote>
   </details>
 
 ---
@@ -46,7 +46,7 @@
 
 <details markdown=1>
   <summary markdown="span">Resposta</summary> Resposta correta: A 
-  <p>Com o VPC Endpoint, o tráfego não sai para a internet, ficando totalmente privado. Um gateway privado virtual fornece acesso da AWS à internet.</p> </details>
+  <blockquote>Com o VPC Endpoint, o tráfego não sai para a internet, ficando totalmente privado. Um gateway privado virtual fornece acesso da AWS à internet.</blockquote> </details>
 
 ---
 
@@ -64,7 +64,7 @@
 
   <details markdown=1>
     <summary markdown="span">Resposta</summary> Respostas corretas: A e C
-    <p>Cálculo de custo: ao dobrar a memória, o tempo de execução deve cair aproximadamente pela metade para manter ou reduzir o custo. Ao aumentar para 2.048 MB (quatro vezes mais memória), o tempo precisaria cair proporcionalmente (para menos de 30 segundos), o que não ocorre no cenário descrito.</p>
+    <blockquote>Cálculo de custo: ao dobrar a memória, o tempo de execução deve cair aproximadamente pela metade para manter ou reduzir o custo. Ao aumentar para 2.048 MB (quatro vezes mais memória), o tempo precisaria cair proporcionalmente (para menos de 30 segundos), o que não ocorre no cenário descrito.</blockquote>
   </details>
 
 ---
@@ -84,7 +84,7 @@
   <details markdown=1>
     <summary markdown="span">Resposta</summary>
     Respostas corretas: B e D 
-    <p>Atualizar diretamente os recursos de produção pode impactar usuários finais. A abordagem correta é utilizar um ambiente separado para testes e controlar gradualmente o tráfego usando roteamento ponderado.</p>
+    <blockquote>Atualizar diretamente os recursos de produção pode impactar usuários finais. A abordagem correta é utilizar um ambiente separado para testes e controlar gradualmente o tráfego usando roteamento ponderado.</blockquote>
   </details>
 
 ---
@@ -102,8 +102,8 @@
   <details markdown=1>
     <summary markdown="span">Resposta</summary> 
     Resposta correta: C 
-    <p>Como o número de instâncias está desbalanceado entre as zonas de disponibilidade, o Auto Scaling primeiro seleciona a zona com mais instâncias para restaurar o equilíbrio.
-    </p>
+    <blockquote>Como o número de instâncias está desbalanceado entre as zonas de disponibilidade, o Auto Scaling primeiro seleciona a zona com mais instâncias para restaurar o equilíbrio.
+    </blockquote>
   </details>
 
 ---
@@ -120,7 +120,7 @@
   <details markdown=1>
     <summary markdown="span">Resposta</summary>
     Resposta correta: A 
-    <p>Volumes com IOPS provisionadas oferecem performance consistente e são ideais para cargas de trabalho com alta taxa de leitura e gravação aleatórias. Volumes de uso geral não garantem essa consistência.</p>
+    <blockquote>Volumes com IOPS provisionadas oferecem performance consistente e são ideais para cargas de trabalho com alta taxa de leitura e gravação aleatórias. Volumes de uso geral não garantem essa consistência.</blockquote>
   </details>
 
 ---
@@ -138,7 +138,7 @@
   <details markdown=1>
     <summary markdown="span">Resposta</summary> 
     Resposta correta: C 
-    <p>O modelo de Luz Piloto (Pilot light) replica apenas os componentes essenciais, reduzindo custos e permitindo recuperação rápida. Standby passivo (Warm standby) replica toda a infraestrutura, o que não atende às restrições orçamentárias.</p>
+    <blockquote>O modelo de Luz Piloto (Pilot light) replica apenas os componentes essenciais, reduzindo custos e permitindo recuperação rápida. Standby passivo (Warm standby) replica toda a infraestrutura, o que não atende às restrições orçamentárias.</blockquote>
   </details>
 
 ---
@@ -155,7 +155,7 @@
   <details markdown=1>
     <summary markdown="span">Resposta</summary>
     Resposta correta: A 
-    <p>O modo sob demanda permite que o DynamoDB escale automaticamente para lidar com picos repentinos de tráfego, como em ofertas relâmpago.</p>
+    <blockquote>O modo sob demanda permite que o DynamoDB escale automaticamente para lidar com picos repentinos de tráfego, como em ofertas relâmpago.</blockquote>
   </details>
 
 ---
@@ -173,7 +173,7 @@
   <details markdown=1>
     <summary markdown="span">Resposta</summary>
     Resposta correta: D 
-    <p>Utilizar múltiplas conexões do Direct Connect em locais diferentes aumenta a resiliência. Usar o mesmo DX não protege contra falhas físicas ou de local.</p>
+    <blockquote>Utilizar múltiplas conexões do Direct Connect em locais diferentes aumenta a resiliência. Usar o mesmo DX não protege contra falhas físicas ou de local.</blockquote>
   </details>
 
 ---
@@ -190,7 +190,7 @@
   <details markdown=1>
     <summary markdown="span">Resposta</summary>
     Resposta correta: D 
-    <p>Antes de salvar no bucket, precisa fazer a verificação. A única solução que permite isso é o Amazon S3 + Lambda. </p>
+    <blockquote>Antes de salvar no bucket, precisa fazer a verificação. A única solução que permite isso é o Amazon S3 + Lambda. </blockquote>
   </details>
 
 ---

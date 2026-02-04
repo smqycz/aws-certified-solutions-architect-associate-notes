@@ -177,7 +177,7 @@
   </details>
 
 ---
-11. 1. Um usuário está projetando um novo serviço que recebe atualizações de localização de 3.600 carros alugados a cada hora. Os carros fazem upload de sua localização em um bucket do Amazon S3. Cada localização deve ser verificada com relação à distância do local de locação original. Quais serviços vão processar as atualizações e escalar automaticamente?
+11. Um usuário está projetando um novo serviço que recebe atualizações de localização de 3.600 carros alugados a cada hora. Os carros fazem upload de sua localização em um bucket do Amazon S3. Cada localização deve ser verificada com relação à distância do local de locação original. Quais serviços vão processar as atualizações e escalar automaticamente?
 
   - A. Amazon EC2 e Amazon Elastic Block Store (Amazon EBS)
 
@@ -194,7 +194,7 @@
   </details>
 
 ---
-12. 1. Uma empresa quer medir a eficácia das campanhas de marketing recentes. A empresa executa o processamento em batch em arquivos .csv de dados de vendas e armazena os resultados em um bucket do Amazon S3 uma vez a cada hora. O bucket do S3 contém petabytes de objetos. A empresa executa consultas únicas no Amazon Athena para determinar quais produtos são mais populares em uma data específica para uma região específica. Às vezes, as consultas falham ou demoram mais do que o esperado para concluir a execução. Quais ações um solutions architect deve tomar para melhorar o desempenho e a confiabilidade da consulta? (Selecione DUAS.)
+12. Uma empresa quer medir a eficácia das campanhas de marketing recentes. A empresa executa o processamento em batch em arquivos .csv de dados de vendas e armazena os resultados em um bucket do Amazon S3 uma vez a cada hora. O bucket do S3 contém petabytes de objetos. A empresa executa consultas únicas no Amazon Athena para determinar quais produtos são mais populares em uma data específica para uma região específica. Às vezes, as consultas falham ou demoram mais do que o esperado para concluir a execução. Quais ações um solutions architect deve tomar para melhorar o desempenho e a confiabilidade da consulta? (Selecione DUAS.)
     - A. Reduzir os tamanhos dos objetos do S3 para menos de 128 MB.
     - B. Seperar os dados por data e região no Amazon S3.
     - C. Armazenar os arquivos como objetos grandes e únicos no Amazon S3.

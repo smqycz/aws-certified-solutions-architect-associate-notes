@@ -19,7 +19,7 @@
 
 ---
 
-2. 1. Uma empresa está usando conexões do AWS Site-to-Site VPN para conectividade segura com os recursos da Nuvem AWS em locais no local. Devido a um aumento no tráfego entre as conexões VPN para as instâncias do Amazon EC2, os usuários estão enfrentando uma conectividade VPN mais lenta. A equipe de rede informa que a conexão com a Internet usada para a VPN tem uma taxa de transferência adicional não utilizada. Qual solução melhorará a taxa de transferência da VPN?
+2. Uma empresa está usando conexões do AWS Site-to-Site VPN para conectividade segura com os recursos da Nuvem AWS em locais no local. Devido a um aumento no tráfego entre as conexões VPN para as instâncias do Amazon EC2, os usuários estão enfrentando uma conectividade VPN mais lenta. A equipe de rede informa que a conexão com a Internet usada para a VPN tem uma taxa de transferência adicional não utilizada. Qual solução melhorará a taxa de transferência da VPN?
 
   - A. Implementar vários gateways do cliente na mesma rede.
   - B. Configurar um gateway privado virtual com roteamento de vários caminhos de custo igual e vários canais.

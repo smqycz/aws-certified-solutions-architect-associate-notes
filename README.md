@@ -11,7 +11,7 @@ Collection of study materials, practice exams questions, and notes to help you p
   - [📦 Elastic Container Service (ECS)](./services-notes/ecs/elastic-container-service.md)
   - [📦 AWS Fargate](./services-notes/fargate/fargate-overview.md)
   - [🎲 AWS Storage Services](./services-notes/aws-storage-services/overview.md)
-- Practice Exame #1
+- [Practice Exame #1 - AWS Official Prep Exam](./practice-exams/practice-exam-1.md)
 - Practice Exame #2
 
 

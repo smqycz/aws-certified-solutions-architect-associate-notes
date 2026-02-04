@@ -1,4 +1,4 @@
-# Practice exame #1
+# Practice Exam #1
 
 1. O Cost Explorer está mostrando cobranças maiores do que o esperado para volumes do Amazon Elastic Block Store (Amazon EBS) conectados a servidores de aplicativos em uma conta de produção. Uma parte significativa das cobranças do Amazon EBS refere-se a volumes que foram criados como tipos de volume SSD de IOPS provisionado (io2). O controle de custos é a maior prioridade para essa aplicação. Quais etapas o usuário deve realizar para analisar e reduzir os custos do EBS sem experimentar nenhum tempo de inatividade do aplicativo? (Selecione DUAS.)
 

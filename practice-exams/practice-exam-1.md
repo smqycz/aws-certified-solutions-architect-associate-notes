@@ -204,6 +204,5 @@
   <details markdown=1>
     <summary markdown="span">Resposta</summary>
     Respostas corretas: B e E
-
-    O problema quer melhorar a performance da consulta SQL utilizando o Athena. O Kinesis Data Analytics é uma ferramenta que transforma e analisa dados de streaming em tempo real. Você não pode usar essa ferramenta para consultar dados específicos.
+    <blockquote>O problema quer melhorar a performance da consulta SQL utilizando o Athena. O Kinesis Data Analytics é uma ferramenta que transforma e analisa dados de streaming em tempo real. Você não pode usar essa ferramenta para consultar dados específicos.</blockquote>
   </details>

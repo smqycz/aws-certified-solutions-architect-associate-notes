@@ -175,3 +175,34 @@
     Resposta correta: D 
     <p>Utilizar múltiplas conexões do Direct Connect em locais diferentes aumenta a resiliência. Usar o mesmo DX não protege contra falhas físicas ou de local.</p>
   </details>
+
+---
+11. 1. Um usuário está projetando um novo serviço que recebe atualizações de localização de 3.600 carros alugados a cada hora. Os carros fazem upload de sua localização em um bucket do Amazon S3. Cada localização deve ser verificada com relação à distância do local de locação original. Quais serviços vão processar as atualizações e escalar automaticamente?
+
+  - A. Amazon EC2 e Amazon Elastic Block Store (Amazon EBS)
+
+  - B. mazon Kinesis Data Firehose e Amazon S3
+
+  - C. Amazon Elastic Container Service (Amazon ECS) e Amazon RDS
+
+  - D. Eventos do Amazon S3 e AWS Lambda
+
+  <details markdown=1>
+    <summary markdown="span">Resposta</summary>
+    Resposta correta: D 
+    <p>Antes de salvar no bucket, precisa fazer a verificação. A única solução que permite isso é o Amazon S3 + Lambda. </p>
+  </details>
+
+---
+12. 1. Uma empresa quer medir a eficácia das campanhas de marketing recentes. A empresa executa o processamento em batch em arquivos .csv de dados de vendas e armazena os resultados em um bucket do Amazon S3 uma vez a cada hora. O bucket do S3 contém petabytes de objetos. A empresa executa consultas únicas no Amazon Athena para determinar quais produtos são mais populares em uma data específica para uma região específica. Às vezes, as consultas falham ou demoram mais do que o esperado para concluir a execução. Quais ações um solutions architect deve tomar para melhorar o desempenho e a confiabilidade da consulta? (Selecione DUAS.)
+    - A. Reduzir os tamanhos dos objetos do S3 para menos de 128 MB.
+    - B. Seperar os dados por data e região no Amazon S3.
+    - C. Armazenar os arquivos como objetos grandes e únicos no Amazon S3.
+    - D. Usar o Amazon Kinesis Data Analytics para executar as consultas como parte da operação de processamento em batch.
+    - E. Usar um processo de extração, transformação e carregamento (ETL) do AWS Glue para converter os arquivos .csv no formato Apache Parquet.
+
+  <details markdown=1>
+    <summary markdown="span">Resposta</summary>
+    Respostas corretas: B e E
+    <p>O problema quer melhorar a performance da consulta SQL utilizando o Athena. O Kinesis Data Analytics é uma ferramenta que transforma e analisa dados de streaming em tempo real. Você não pode usar essa ferramenta para consultar dados específicos. </p>
+  </details>

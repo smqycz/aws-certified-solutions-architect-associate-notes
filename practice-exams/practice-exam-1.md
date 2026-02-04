@@ -195,11 +195,11 @@
 
 ---
 12. Uma empresa quer medir a eficácia das campanhas de marketing recentes. A empresa executa o processamento em batch em arquivos .csv de dados de vendas e armazena os resultados em um bucket do Amazon S3 uma vez a cada hora. O bucket do S3 contém petabytes de objetos. A empresa executa consultas únicas no Amazon Athena para determinar quais produtos são mais populares em uma data específica para uma região específica. Às vezes, as consultas falham ou demoram mais do que o esperado para concluir a execução. Quais ações um solutions architect deve tomar para melhorar o desempenho e a confiabilidade da consulta? (Selecione DUAS.)
-    - A. Reduzir os tamanhos dos objetos do S3 para menos de 128 MB.
-    - B. Seperar os dados por data e região no Amazon S3.
-    - C. Armazenar os arquivos como objetos grandes e únicos no Amazon S3.
-    - D. Usar o Amazon Kinesis Data Analytics para executar as consultas como parte da operação de processamento em batch.
-    - E. Usar um processo de extração, transformação e carregamento (ETL) do AWS Glue para converter os arquivos .csv no formato Apache Parquet.
+  - A. Reduzir os tamanhos dos objetos do S3 para menos de 128 MB.
+  - B. Seperar os dados por data e região no Amazon S3.
+  - C. Armazenar os arquivos como objetos grandes e únicos no Amazon S3.
+  - D. Usar o Amazon Kinesis Data Analytics para executar as consultas como parte da operação de processamento em batch.
+  - E. Usar um processo de extração, transformação e carregamento (ETL) do AWS Glue para converter os arquivos .csv no formato Apache Parquet.
 
   <details markdown=1>
     <summary markdown="span">Resposta</summary>

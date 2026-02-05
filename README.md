@@ -4,6 +4,8 @@ Collection of study materials, practice exams questions, and notes to help you p
 
 ## Content
 
+- Books
+  - [Serviços de Computação em Nuvem - @casadocodigo](https://www.casadocodigo.com.br/products/livro-servicos-de-computacao-em-nuvem?cupom=AF-34ffb8b2)
 - Services notes
   - [💂 AWS GuardDuty](./services-notes/aws-guardduty/aws-guardduty.md)
   - [💿 Elastic Block Store (EBS)](./services-notes/ebs/elastic-block-store.md)
@@ -11,8 +13,9 @@ Collection of study materials, practice exams questions, and notes to help you p
   - [📦 Elastic Container Service (ECS)](./services-notes/ecs/elastic-container-service.md)
   - [📦 AWS Fargate](./services-notes/fargate/fargate-overview.md)
   - [🎲 AWS Storage Services](./services-notes/aws-storage-services/overview.md)
-- [Practice Exam #1 - AWS Official Prep Exam](./practice-exams/practice-exam-1.md)
-- [Practice Exam #2](./practice-exams/practice-exam-2.md)
+- Practice exams
+  - [Practice Exam #1 - AWS Official Prep Exam](./practice-exams/practice-exam-1.md)
+  - [Practice Exam #2](./practice-exams/practice-exam-2.md)
 
 
 ## 👩 Author

